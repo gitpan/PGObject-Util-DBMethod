@@ -3,7 +3,7 @@ abstract: 'Declarative stored procedure <-> object mappings for'
 author:
   - 'Chris Travers <chris.travers@gmail.com>'
 build_requires:
-  ExtUtils::MakeMaker: 0
+  Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 0
 dynamic_config: 1
@@ -17,6 +17,5 @@ no_index:
   directory:
     - t
     - inc
-requires:
-  Test::More: 0
-version: 0.01
+requires: {}
+version: 1.00
